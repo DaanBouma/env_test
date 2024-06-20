@@ -1,0 +1,16 @@
+$input_default_border_color: #4C5261;
+$input_caret_color: white;
+
+input {
+    background-color: transparent;
+    border: 1px solid $input_default_border_color;
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    caret-color: white;
+}
+
+input[type="email"] {
+    caret-color: white !important;
+}

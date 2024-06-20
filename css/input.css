@@ -1,0 +1,13 @@
+input {
+  background-color: transparent;
+  border: 1px solid #4C5261;
+  border-radius: 2px;
+  width: 250px;
+  height: 30px;
+  color: white;
+  caret-color: white;
+}
+
+input[type=email] {
+  caret-color: white !important;
+}/*# sourceMappingURL=input.css.map */

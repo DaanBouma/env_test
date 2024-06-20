@@ -1,0 +1,203 @@
+$card_default_backgroundcolor: #16181D;
+
+
+
+
+$card_primary_background: #6be7c9;
+$card_primary_background_hover: #6be7c9;
+$card_primary_border: #6be7c9;
+$card_primary_background_active: #75fbdb;
+
+// link card
+
+$card_link_background: #4758f6;
+$card_link_border: #4758f6;
+$card_link_background_hover: #5f6ef6;
+$card_link_background_active: #7885f7;
+
+// info card
+
+$card_info_background: #82cffa;
+$card_info_border: #82cffa;
+$card_info_background_hover: #5f6ef6;
+$card_info_background_active: #7885f7;
+
+$card_active_background: #6dc492;
+$card_active_border: #6dc492;
+$card_active_background_hover: #6dc492;
+$card_active_background_active: #7885f7;
+
+$card_warning_background: #f4ba42;
+$card_warning_border: #f4ba42;
+$card_warning_background_hover: #f4ba42;
+$card_warning_background_active: #7885f7;
+
+$card_danger_background: #ed7086;
+$card_danger_border: #ed7086;
+$card_danger_background_hover: #ed7086;
+$card_danger_background_active: #ed7086;
+
+.card {
+  background-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 10px;
+  width: 250px;
+  height: 320px;
+  border-radius: 5px;
+  &.default {
+    outline: 1px #363a45 solid;
+    background-color: transparent !important; 
+  }
+  &.default:hover {
+    outline: 2px #363a45 solid;
+  }
+  &.primary {
+    background-color: $card_primary_background;
+    &.outline {
+      background-color: $card_default_backgroundcolor;
+      outline: 1px $card_primary_border solid;
+    }
+  }
+  &.primary:hover {
+    background-color: $card_primary_background;
+    &.outline {
+      background-color: $card_default_backgroundcolor;
+      outline: 2px $card_primary_border solid;
+    }
+  }
+&.link {
+  background-color: $card_link_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 1px $card_link_border solid;
+  }
+}
+&.link:hover {
+  background-color: $card_link_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 2px $card_link_border solid;
+  }
+}
+
+&.info {
+  background-color: $card_info_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 1px $card_info_border solid;
+  }
+}
+&.info:hover {
+  background-color: $card_info_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 2px $card_info_border solid;
+  }
+}
+
+&.active {
+  background-color: $card_active_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 1px $card_active_border solid;
+  }
+}
+&.active:hover {
+  background-color: $card_active_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 2px $card_active_border solid;
+  }
+}
+
+&.warning {
+  background-color: $card_warning_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 1px $card_warning_border solid;
+  }
+}
+&.warning:hover {
+  background-color: $card_warning_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 2px $card_warning_border solid;
+  }
+}
+&.danger {
+  background-color: $card_danger_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 1px $card_danger_border solid;
+  }
+}
+&.danger:hover {
+  background-color: $card_danger_background;
+  &.outline {
+    background-color: $card_default_backgroundcolor;
+    outline: 2px $card_danger_border solid;
+  }
+}
+&.round {
+  border-radius: 100%;
+}
+&.shadow {
+  box-shadow: 0 0.5em 1em -0.125em rgba(255, 255, 255, 0.1);
+}
+}
+
+.card-placeholder {
+  width: 100%;
+  height: 160px;
+}
+.card-title {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.card-description {
+  width: 100%;
+  color: rgb(153, 153, 153);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.card-text {
+  display: flex;
+  margin: 0;
+}
+.card-form {
+  margin-right: 5px;
+}
+.card-fill {
+  font-weight: bold;
+}
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
+.card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

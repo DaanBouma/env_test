@@ -1,0 +1,6 @@
+.footer-buttons {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row !important;
+}
+

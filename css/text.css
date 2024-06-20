@@ -1,0 +1,26 @@
+p {
+  margin: 1px;
+}
+p.link {
+  color: #626EEE;
+}
+p.primary {
+  color: #7CCCB4;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: arial;
+}
+h1.link {
+  color: #7CCCB4;
+}
+h1.primary {
+  color: #7CCCB4;
+}
+
+.warningtext {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=text.css.map */
